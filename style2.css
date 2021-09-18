@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{overflow: hidden;}
+/*top_contient  */
+.top-contient{
+    width: 100%;
+    height: 60px;
+    padding:15%  auto;
+    /* background-color: bisque; */
+ 
+}
+
+.top-contient .header_nav{
+    width: 180px;
+    height: 100%;
+    list-style-type: none;
+    float: right;
+    padding: 2px 2px 2px 20px;
+}
+
+
+/*top contient gmail link*/
+
+/*gmail posistion*/
+.top-contient .header_nav .div_A{
+    height: 20px;
+    float: left;
+     margin-top: 20px;
+     font-size: 15px;
+    
+     
+}
+
+.top-contient  .header_nav div a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.top-contient  .header_nav div a:hover {
+    text-decoration:underline;
+   cursor: pointer;
+   
+}
+
+
+
+/*image de compte*/
+
+/*image compte position*/
+.top-contient  .header_nav .div_C {
+    float: left;
+   margin-top: 2px;
+   
+}
+.top-contient  .header_nav .div_C a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    padding: 11px 5px;
+
+   
+    
+}
+.top-contient  .header_nav .div_C a img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    top:10px;
+}
+
+.top-contient  .header_nav .div_C a:hover{
+     background-color: rgba(145, 145, 145, 0.63);
+     cursor: pointer;
+}
+
+/* google appliction*/
+
+/*app google position*/
+.top-contient  .header_nav .div_B 
+{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+   float: left;
+   margin-left: 15px;
+  margin-top: 11px;
+  
+}
+
+.top-contient  .header_nav .div_B .gb_C
+{
+    width: 40px;
+    height: 40px;
+   border-radius: 50%;
+  padding: 10px 7.5px;
+
+  
+  
+  
+}
+.top-contient  .header_nav .div_B .gb_C svg
+{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    fill: rgb(110, 112, 112);
+    position: relative;
+    top: 6px;
+   
+    
+}
+.top-contient  .header_nav .div_B .gb_C svg path
+{ 
+    width: 16px;
+    height: 16px;
+
+   
+   
+  
+}
+.top-contient  .header_nav .div_B .gb_C:hover{
+cursor: pointer;
+background-color: rgba(157, 153, 160, 0.815);
+}
+
+
+/*----------------box applications google---------------*/
+
+.div_B ul{
+    width: 315px;
+    height:50vh ;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 15px 20px;
+    list-style-type: none;
+    overflow-y:auto;
+    margin-top: 10px;
+    margin-left: -230px;
+    box-shadow: 1px 5px 5px 5px rgb(197, 197, 197);
+    border-radius: 10px;
+   display: none;
+   position:absolute;
+}
+
+
+.div_B ul li{
+        width: 80px;
+        height: 82px;
+        /* border: 1px solid rgb(54, 209, 49); */
+        border-radius: 10px;
+        float: left;
+        margin: 1px ;
+        position: relative;
+        margin-left:2px;
+  
+    }
+    .div_B ul li:hover{
+        background-color: rgba(26, 58, 243, 0.205);
+    }
+
+.div_B  ul li .image-google img{
+        width:40px ;
+        height: 40px;
+      
+    
+      }
+ .div_B ul li  a .image-google.compte img{
+        width:40px ;
+        height: 40px;
+        border-radius: 50%;
+       
+       
+      }
+
+.div_B ul li a div i{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.div_B ul li a div p{
+   margin-top: 60px;
+   text-align:center;
+}
+
+/* width */
+/* width */
+#scroll1::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  #scroll1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  #scroll1::-webkit-scrollbar-thumb {
+    background: rgba(139, 139, 139, 0.493); 
+    border-radius: 10px;
+    
+  }
+ 
+
+
+/*-----------------------section---contient------------------------------*/
+
+
+/*article 1 : */
+
+.contient .logo-google{
+    width: 100%;
+    height: 92px;
+    margin-top: 105px;
+
+}
+.contient .logo-google img{   
+  
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+
+
+/*---------------------------article 2  form-search--------------------------*/
+.contient .form-search{
+padding: 8px;
+
+}
+/*--------------------zone de recherche----------------------------*/
+.contient .form-search div form .input_search{
+    padding: 15px;
+}
+
+.contient .form-search div .input_search .search_composant{
+    width: 582.4px;
+    height: 44px;
+    border-radius: 30px;
+    border: solid 1.5px #D3D3D3;
+    position: relative;
+}
+.contient .form-search div .input_search .search_composant:hover{
+    width: 582.5px;
+    height: 44.5px;
+    box-shadow: 0 0 2pt 1pt #D3D3D3;
+}
+
+.contient .form-search div .input_search i.search_composant:focus{
+    width: 582.5px;
+    height: 44.5px;
+    box-shadow: 0 0 2pt 1pt #D3D3D3;
+    outline-width: 0px;
+}
+
+/*---------------composant zone search-------------------------*/
+.search_composant div{
+float: left;
+
+}
+
+/*-------------------icon_searcha--------------------*/
+ .icon_search{
+width: 25px;
+height: 25px;
+margin: 5px 20px ;
+position: absolute;
+top: 7px;
+left: -5px;
+color: rgba(172, 172, 172, 0.699);
+}
+
+/*-------------------input_searcha--------------------*/
+ .iput_text_search {
+width: 480px;
+height:100%;
+
+position: absolute;
+left: 50px;
+
+}
+
+.iput_text_search input[type=text]{
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    border:none;
+    text-align: left;
+    font-size:15px;
+    }
+    
+.iput_text_search input[type=text]:focus{
+    outline: none;
+    }
+    
+
+/*-------------------mic_searcha--------------------*/
+ .icon-mic{
+width: 25px;
+height: 25px;
+position: absolute;
+left: 540px;
+top: 7px;
+}
+
+/*--------------------zone de button----------------------------*/
+.contient .form-search div form .button_search{
+    width: 584px;
+    height: 58px;
+
+}
+.contient .form-search div form .button_search .searchA,.contient .form-search div form .button_search .searchB{
+    text-align: center;
+    height:36px ;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+   line-height: 27px;
+    min-width: 45px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    background-color: rgba(245, 243, 243, 0.452);
+    }
+
+.contient .form-search div form .button_search  input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.contient .form-search div form .button_search  input[type="submit"]:active {
+    border: 1px solid #5088f7;
+    
+}
+/*------------------------bottom section----------------*/
+
+.bottom-section{
+    padding-top: 10px;
+    width: 100%;
+    height:260px;
+    
+}
+.bottom-section .language p{
+    width: 100%;
+    height: 28px;
+    
+    text-align: center;
+   padding: 5px;
+   font-size: small;
+   color:#314043;
+   font-family: arial,sans-serif;
+}
+.bottom-section .language p a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.bottom-section .language p a:hover{
+    text-decoration:underline;
+   
+}
+
+/*----------------footer---------------*/
+.footer{
+   color: #70577a;  
+    width: 100%;
+    display: block;
+    min-height: 80px; /* overrides height and max-height */
+  height: 300px;
+  max-height: 300px;
+    background-color: #ebebeb73;
+   font-family: Arial, sans-serif;
+   font-size: 15px;
+}
+
+
+
+footer .AA{
+    width: 100%;
+    height: 45px;
+    padding:15px 0 15px 30px;
+    border-bottom: 1px solid rgb(199, 198, 198);
+
+}
+
+footer .AA p{
+ 
+    font-size: 15px;
+}
+footer .AB {
+    padding-top: 15px;
+}
+footer .AB  .B1{
+    float: left;
+    
+    
+}
+footer .AB  .B1 span{
+margin-left: 40px;
+
+}
+
+
+span a
+{
+    text-decoration: none;
+    color: #70577a; 
+text-align: center;
+}
+
+span a:hover{
+    text-decoration: underline;
+}
+
+footer .AB  .B2{
+    margin-left: 40px;
+    float: left;
+   
+}
+footer .AB  .B3{
+   margin-right: 20px;
+    float: right;
+    word-spacing: 40px;
+  
+} 
